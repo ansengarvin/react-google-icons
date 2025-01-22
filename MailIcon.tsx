@@ -2,8 +2,8 @@ import React from "react";
 import { IconProps } from "./common/IconProps";
 import { GoogleSVG } from "./common/GoogleSVG";
 
-// Google Mail Icon - An envelope
-export function EnvelopeIcon(props: IconProps) {
+// Plain Envelope Icon
+export function MailIcon(props: IconProps) {
     const {color, dim, filled} = props
 
     return (

@@ -3,7 +3,7 @@ import { IconProps } from "./common/IconProps";
 import { GoogleSVG } from "./common/GoogleSVG";
 
 // Briefcase with a buckle
-export function BriefcaseIcon(props: IconProps) {
+export function BusinessCenterIcon(props: IconProps) {
     const {color, dim, filled} = props
 
     return (

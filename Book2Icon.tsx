@@ -2,8 +2,8 @@ import React from "react";
 import { IconProps } from "./common/IconProps";
 import { GoogleSVG } from "./common/GoogleSVG";
 
-// Google Book 3 icon
-export function BookIcon(props: IconProps) {
+// Plain closed book
+export function Book2Icon(props: IconProps) {
     const {color, dim, filled} = props
 
     return (

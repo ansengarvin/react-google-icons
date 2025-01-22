@@ -1,7 +1,7 @@
 import React from "react"
 
 interface googleSVGProps {
-    color: string
+    color?: string
     dim?: string // If not provided, defaults to the size of the parent container
     children: React.ReactNode
 }
@@ -12,10 +12,10 @@ export function GoogleSVG(props: googleSVGProps) {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            height={dim}
+            height={dim ? dim : "100%"}
             viewBox="0 -960 960 960"
-            width={dim}
-            fill={color}
+            width={dim ? dim: "100%"}
+            fill={color ? color : "#000000"}
         >
             {children}
         </svg>
