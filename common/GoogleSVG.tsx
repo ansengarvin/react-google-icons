@@ -1,5 +1,3 @@
-import React from "react"
-
 interface googleSVGProps {
     color?: string
     dim?: string // If not provided, defaults to the size of the parent container
